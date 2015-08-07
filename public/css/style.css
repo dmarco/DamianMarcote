@@ -1,0 +1,113 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+main {
+  flex: 1 0 auto;
+}
+main.container {
+  margin-top: 40px;
+}
+img {
+  min-height: 100px;
+}
+header img {
+  margin-top: 40px;
+  max-height: 160px;
+  border-radius: 50%;
+}
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+p {
+  line-height: 2rem;
+}
+footer.page-footer {
+  margin: 0;
+}
+footer.footer-copyright {
+  
+}
+
+
+
+
+
+/* loading... */
+.preloader-wrapper {
+  display: inline-block;
+  left: 50%;
+  margin-left: -18px;
+  margin-top: -18px;
+  position: absolute;
+  top: 50%;
+}
+
+
+
+
+
+/* label color */
+.input-field label {
+ color: #ccc;
+}
+/* label focus color */
+.input-field input[type=text]:focus + label,
+.input-field input[type=url]:focus + label,
+.input-field input[type=tel]:focus + label,
+.input-field input[type=number]:focus + label,
+.input-field input[type=color]:focus + label,
+.input-field input[type=email]:focus + label, 
+.input-field textarea.materialize-textarea:focus + label {
+ color: #666;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus,
+.input-field input[type=url]:focus,
+.input-field input[type=tel]:focus,
+.input-field input[type=number]:focus,
+.input-field input[type=color]:focus,
+.input-field input[type=email]:focus, 
+.input-field textarea.materialize-textarea:focus {
+ border-bottom: 1px solid #666;
+ box-shadow: 0 1px 0 0 #ccc;
+}
+/* valid color */
+.input-field input[type=text].valid,
+.input-field input[type=url].valid,
+.input-field input[type=tel].valid,
+.input-field input[type=number].valid,
+.input-field input[type=color].valid,
+.input-field input[type=email].valid, 
+.input-field textarea.materialize-textarea.valid {
+ border-bottom: 1px solid green;
+ box-shadow: 0 1px 0 0 green;
+}
+/* invalid color */
+.input-field input[type=text].invalid,
+.input-field input[type=url].invalid,
+.input-field input[type=tel].invalid,
+.input-field input[type=number].invalid,
+.input-field input[type=color].invalid,
+.input-field input[type=email].invalid, 
+.input-field textarea.materialize-textarea.invalid {
+ border-bottom: 1px solid red;
+ box-shadow: 0 1px 0 0 red;
+}
+/* icon prefix focus color */
+.input-field .prefix {
+ color: #efefef;
+}
+.input-field .prefix.active {
+ color: #999;
+}
